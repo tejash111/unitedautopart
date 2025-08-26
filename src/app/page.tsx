@@ -60,9 +60,7 @@ const features = [
 const Home = () => {
   return (
     <div className='bg-black'>
-      <div className='z-40 backdrop-blur-xl fixed w-full'>
-        <Header />
-      </div>
+     
 
     <AnimatedSection>
       <div className='w-full h-screen relative bg-black '>
@@ -207,7 +205,7 @@ const Home = () => {
       <AnimatedSection>
       <CustomerReviews/>
       </AnimatedSection>
-      <Footer/>
+     
     </div>
   )
 }
