@@ -44,7 +44,7 @@ const products = [
 
 const Component5 = () => {
   return (
-    <div className='flex  items-center justify-center gap-8  '>
+    <div className=' items-center justify-center gap-8  grid grid-cols-1 sm:grid-cols-4'>
       {products.map((product, index) => (
         <CardContainer  key={index} className="inter-var items-center justify-center">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-gradient-to-br from-gray-900 via-black to-gray-900 dark:border-white/[0.2] border-black/[0.1] w-80 h-80 rounded-xl p-6 border items-center ">

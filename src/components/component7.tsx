@@ -7,7 +7,7 @@ export function Component7() {
   return (
     <CardContainer className="inter-var  ">
       <CardBody  className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]   rounded-xl p-6 border w-350 grid grid-cols-3 gap- items-center justify-center">
-      <CardItem translateZ="20" className="text-gray-50 bg-gradient-to-br from-gray-900 via-black to-gray-800 p-4 rounded-2xl w-100">
+      <CardItem translateZ="20" className="text-gray-50 bg-gradient-to-br from-gray-900 via-black to-gray-800 p-4 rounded-2xl w-30 sm:w-100">
           <h1 className="font-semibold text-4xl mb-5">Comprehensive Parts Inventory</h1>
 
          <p> We maintain an extensive inventory of engine parts, including but not limited to pistons, crankshafts, camshafts, gaskets, valves, bearings, and more. Our wide selection ensures that you find the exact parts you need for various vehicle makes and models</p>
